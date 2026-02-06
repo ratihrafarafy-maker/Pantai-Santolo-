@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lensa Kreatif | Studio Fotografi & Videografi</title>
+    <style>
+        /* CSS Internal untuk Layout & Responsive */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 85%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+
+        section {
+            padding: 20px 0;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .gallery img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 8px;
+            margin: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+
+        /* Responsivitas sederhana */
+        @media (max-width: 600px) {
+            nav ul li {
+                display: block;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header id="home">
+        <h1>Pantai santolo</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#services">Layanan</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#pricing">Harga</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <section id="about">
+            <h2>Tentang <em>pantai santolo</em></h2>
+            <p>pantai santolo adalah destinasi wisata populer di <strong>kabupaten garut, jawa barat</strong>. 
+             dikenal dengan pasir putihnya yang halus dan panorama laut selatan yang menakjubkan, pantai jnj menjadi magnet bagj wisatawan domestik maupun mancan negara.</p>
+            <p>keunikanan utama: <mark>Muara cilauteureun di mana air laut mengalir masuk ke sungai fenomone langka di dunia</mark></p>
+        </section>
+
+        <section id="services">
+            <h2>destinasi di pantai santolo</h2>
+            <ul>
+                <li>Menikmati sunset di jembatan gantung purbakala</li>
+                <li>Wisata kuliner ikan bakar khas nelayan lokal</li>
+                <li>menyebrang ke pulau santolo dengan perahu nelayan</li>
+                <li>Hunting foto estetik di hamparan karang</li>
+            </ul>
+        </section>
+
+        <section id="portfolio" class="gallery">
+            <h2>Foto pantai</h2>
+            <div class="media-container">
+                <img src="santolo.jpg" 
+                     alt="Foto pantai" title="Foto pemandangan pantai santolo">
+
+                <h3>Video pantai</h3>
+                <video width="100%" controls>
+                    <source src="santolo1.mp4" type="video/mp4">
+                    Browser Anda tidak mendukung tag video.
+                </video>
+
+                <h3>suara ombak</h3>
+                <audio controls>
+                    <source src="sample-audio.mp3" type="audio/mpeg">
+                    Browser Anda tidak mendukung tag audio.
+                </audio>
+            </div>
+        </section>
+
+        <section id="pricing">
+            <h2>Biaya kunjungan</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Jenis Paket</th>
+                        <th>keterangan</th>
+                        <th>Harga</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Tiket Masuk(HTM)</td>
+                        <td>perorang</td>
+                        <td>Rp 15.000</td>
+                    </tr>
+                    <tr>
+                        <td>Sewa perahu penyeberangan</td>
+                        <td>pulang pergi</td>
+                        <td>Rp 25.000</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2"><strong>Catatan:</strong> 
+                        Harga dapat beubah saat musim libur panjang.</td>
+                        <td>Pajak 10%</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 pantai santolo garut. keindahan laut jawa barat.</p>
+        <p>info lebih lanjut: <a href="mailto:visit@santolo-garut.com" style="color: yellow;">visit@santolo-garut.com</a></p>
+    </footer>
+
+</body>
+</html>
